@@ -8,10 +8,3 @@ A computer vision script that uses your webcam to track and count bicep curls in
 * Relies on MediaPipe version 0.10.30+ for pose and hand landmark detection[cite: 1].
 * Automatically downloads required model files (`pose_landmarker.task` and `hand_landmarker.task`) on the first run[cite: 1].
 * Displays an on-screen UI with live joint angles, current curl stage (up/down), and rep counters[cite: 1].
-
-## Installation
-
-1. Ensure you have Python installed.
-2. Install the required dependencies[cite: 1]:
-   ```bash
-   python -m pip install opencv-python mediapipe numpy
