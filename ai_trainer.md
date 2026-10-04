@@ -1,10 +1,29 @@
-# AI Personal Trainer — Bicep Curl Counter
+# Real-Time Bicep Curl Counter
 
-A computer vision script that uses your webcam to track and count bicep curls in real-time. This project utilizes the MediaPipe Tasks API to render body poses and hand landmarks.
+A Python tool that tracks elbow joint angles and counts bicep curl repetitions in real time using your webcam.
 
-## Features
-* Tracks left and right arm bicep curls independently.
-* Calculates joint angles using shoulder, elbow, and wrist coordinates.
-* Relies on MediaPipe version 0.10.30+ for pose and hand landmark detection.
-* Automatically downloads required model files (`pose_landmarker.task` and `hand_landmarker.task`) on the first run[cite: 1].
-* Displays an on-screen UI with live joint angles, current curl stage (up/down), and rep counters[cite: 1].
+## Requirements
+
+* Python 3.8+
+* Webcam
+
+## Installation
+
+Install the required dependencies:
+
+```bash
+pip install opencv-python mediapipe numpy# Real-Time Bicep Curl Counter
+
+A Python tool that tracks elbow joint angles and counts bicep curl repetitions in real time using your webcam.
+
+## Requirements
+
+* Python 3.8+
+* Webcam
+
+## Installation
+
+Install the required dependencies:
+
+```bash
+pip install opencv-python mediapipe numpy
